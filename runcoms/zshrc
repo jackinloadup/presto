@@ -11,4 +11,13 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-
+alias lg="git lg"
+alias sub="/home/luke/Downloads/Sublime\ Text\ 2/sublime_text"
+alias s="git status"
+alias f="git diff"
+alias fs="git diff --staged"
+alias a="git add"
+alias mtag="maiden tagRevision"
+alias l="ls -la"
+alias ltag="git tag |sort -V| tail -n 10"
+unsetopt correct_all
